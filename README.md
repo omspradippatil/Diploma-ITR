@@ -150,7 +150,7 @@ Diploma-ITR/
 For questions or feedback regarding this project, please contact:
 - **Email:** [ompsradippatil@gmail.com](mailto:omspradippatil@gmail.com)
 - **Phone:** +91-9028915605
-- **LinkedIn:** [Om Pradip Patil](https://www.linkedin.com/in/ompradippatil/)
+- **LinkedIn:** [Om Pradip Patil](https://www.linkedin.com/in/om-pradip-patil/)
 
 ---
 
