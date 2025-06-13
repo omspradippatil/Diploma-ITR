@@ -11,37 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="Amul.jpg" alt="Amul Logo" class="logo-img">
-            <span class="shop-name ms-3">Shree Laxmi Amul Shopiee</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php include 'header.php'; ?>
 
 <div class="floating-background">
     <div class="ice-cream cone"></div>
@@ -73,11 +43,7 @@
     </div>
 </main>
 
-<footer class="py-4 text-center text-white">
-    <div class="container">
-        <p class="mb-0">Shree Laxmi Amul Shopiee</p>
-    </div>
-</footer>
+<?php include 'footer.php'; ?>
 
 <!-- Bootstrap JS Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

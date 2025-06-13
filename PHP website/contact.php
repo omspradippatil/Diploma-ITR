@@ -14,36 +14,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="Amul.jpg" alt="Amul Logo" class="logo-img">
-            <span class="shop-name ms-3">Shree Laxmi Amul Shopiee</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php include 'header.php'; ?>
 
 <div class="floating-background">
     <div class="ice-cream cone"></div>
@@ -79,7 +50,10 @@
                             <h3 class="mb-0">Store Address</h3>
                         </div>
                         <p class="mb-0">Shree Laxmi Amul Shopiee</p>
-                        <p>210, pachmarg, road, opp. police station, Delwadi, Kudan, Maharashtra 401502</p>
+                        <p class="mb-2">210, pachmarg, road, opp. police station, Delwadi, Kudan, Maharashtra 401502</p>
+                        <a href="https://maps.app.goo.gl/pG3D8cZ4Udd39mgs9" target="_blank" class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-map"></i> View on Google Maps
+                        </a>
                     </div>
                 </div>
                 
@@ -123,7 +97,7 @@
                             <h3 class="mb-0">Store Timing</h3>
                         </div>
                         <p class="mb-2"><strong>Open All Days</strong></p>
-                        <p>Morning: 7:00 AM – Night: 12:00 PM</p>
+                        <p>Morning: 7:00 AM – Night: 12:00 AM</p>
                     </div>
                 </div>
             </div>
@@ -131,6 +105,16 @@
             <!-- Contact Form -->
             <div class="content-card mt-4 animate__animated animate__fadeInUp animate__delay-3s">
                 <h3 class="mb-4 text-center">Send Us a Message</h3>
+                
+                <div class="row mb-4">
+                    <div class="col-md-6 mx-auto">
+                        <div class="text-center mb-3">
+                            <h5><i class="bi bi-people-fill text-primary"></i> Store Management</h5>
+                            <p class="mb-1"><strong>Owner:</strong> Pradip Laxuman Patil</p>
+                            <p><strong>Co-Owner:</strong> Om Pradip Patil</p>
+                        </div>
+                    </div>
+                </div>
                 
                 <form>
                     <div class="row g-3">
@@ -188,11 +172,7 @@
     </script>
 </main>
 
-<footer class="py-4 text-center text-white">
-    <div class="container">
-        <p class="mb-0">Shree Laxmi Amul Shopiee</p>
-    </div>
-</footer>
+<?php include 'footer.php'; ?>
 
 <!-- Bootstrap JS Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

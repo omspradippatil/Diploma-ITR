@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Amul - Home</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,39 +11,16 @@
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Mobile optimization CSS -->
+    <link rel="stylesheet" href="mobile-fixes.css">
+    <!-- Preload key carousel images for better mobile performance -->
+    <link rel="preload" href="images/Ice Cream Collection.jpg" as="image">
+    <link rel="preload" href="images/Dairy Products.jpg" as="image">
+    <link rel="preload" href="images/Refreshing Beverages.jpg" as="image">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="Amul.jpg" alt="Amul Logo" class="logo-img">
-            <span class="shop-name ms-3">Shree Laxmi Amul Shopiee</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php include 'header.php'; ?>
 
 <div class="floating-background">
     <div class="ice-cream cone"></div>
@@ -58,7 +35,105 @@
     <div class="ice-cream cone reversed"></div>
 </div>
 
-<main class="container py-5">
+<!-- Ultra-Modern Premium Carousel Slider -->
+<div class="premium-slider-container mt-3 mb-4">
+  <div id="amulCarousel" class="carousel slide premium-carousel" data-bs-ride="carousel">
+    <!-- Carousel Progress Bar -->
+    <div class="carousel-progress">
+      <div class="carousel-progress-bar"></div>
+    </div>
+
+    <!-- 3D Carousel Inner -->
+    <div class="carousel-inner premium-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active" data-slide-id="1">
+        <div class="premium-slide-wrapper">
+          <div class="carousel-image-container">
+            <img src="images/Ice Cream Collection.jpg" alt="Ice Cream Collection" onerror="this.src='Amul.jpg';">
+            <div class="slide-particles" id="particles-1"></div>
+            <div class="image-reflections"></div>
+          </div>
+          <div class="carousel-caption premium-caption">
+            <div class="caption-badge">Featured</div>
+            <h2 class="slide-title">Delicious<br><span class="highlight">Ice Creams</span></h2>
+            <div class="caption-divider"><span></span></div>
+            <p class="slide-description">Explore our premium collection of rich, creamy Amul ice creams in various flavors.</p>
+            <a href="products.php" class="btn btn-slider"></a>
+              <span class="btn-text">Discover Now</span>
+              <span class="btn-icon"><i class="bi bi-arrow-right"></i></span>
+            </a>
+            <div class="slide-number">01</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" data-slide-id="2">
+        <div class="premium-slide-wrapper">
+          <div class="carousel-image-container">
+            <img src="images/Dairy Products.jpg" alt="Dairy Products" onerror="this.src='Amul.jpg';">
+            <div class="slide-particles" id="particles-2"></div>
+            <div class="image-reflections"></div>
+          </div>
+          <div class="carousel-caption premium-caption">
+            <div class="caption-badge">Popular</div>
+            <h2 class="slide-title">Fresh<br><span class="highlight">Dairy Products</span></h2>
+            <div class="caption-divider"><span></span></div>
+            <p class="slide-description">Premium quality butter, cheese and milk products for your daily needs.</p>
+            <a href="products.php" class="btn btn-slider">
+              <span class="btn-text">Explore Range</span>
+              <span class="btn-icon"><i class="bi bi-arrow-right"></i></span>
+            </a>
+            <div class="slide-number">02</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item" data-slide-id="3">
+        <div class="premium-slide-wrapper">
+          <div class="carousel-image-container">
+            <img src="images/Refreshing Beverages.jpg" alt="Refreshing Beverages" onerror="this.src='Amul.jpg';">
+            <div class="slide-particles" id="particles-3"></div>
+            <div class="image-reflections"></div>
+          </div>
+          <div class="carousel-caption premium-caption">
+            <div class="caption-badge">New</div>
+            <h2 class="slide-title">Refreshing<br><span class="highlight">Beverages</span></h2>
+            <div class="caption-divider"><span></span></div>
+            <p class="slide-description">Cool down with Amul's refreshing drink collection for hot summer days.</p>
+            <a href="products.php" class="btn btn-slider">
+              <span class="btn-text">Try Now</span>
+              <span class="btn-icon"><i class="bi bi-arrow-right"></i></span>
+            </a>
+            <div class="slide-number">03</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Premium Controls -->
+    <div class="premium-controls">
+      <button class="carousel-control-prev premium-control" type="button" data-bs-target="#amulCarousel" data-bs-slide="prev">
+        <span class="control-icon">
+          <i class="bi bi-chevron-left"></i>
+        </span>
+      </button>
+      <div class="slide-indicators">
+        <button type="button" data-bs-target="#amulCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#amulCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#amulCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <button class="carousel-control-next premium-control" type="button" data-bs-target="#amulCarousel" data-bs-slide="next">
+        <span class="control-icon">
+          <i class="bi bi-chevron-right"></i>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main class="container py-4">
     <div class="row justify-content-center">
         <div class="col-lg-10">
             <!-- Hero Section -->
@@ -142,12 +217,17 @@
                                         <i class="bi bi-geo-alt-fill text-danger"></i> <strong>Location:</strong> Shree Laxumi Amul Shopiee, [Pachmarg]
                                     </li>
                                     <li class="list-group-item bg-transparent">
-                                        <i class="bi bi-clock-fill text-danger"></i> <strong>Timing:</strong> Open Daily – 7:00 AM to 10:00 PM
+                                        <i class="bi bi-clock-fill text-danger"></i> <strong>Timing:</strong> Open Daily – 7:00 AM to 12:00 AM
                                     </li>
                                     <li class="list-group-item bg-transparent">
                                         <i class="bi bi-telephone-fill text-danger"></i> <strong>Contact:</strong> +91 9890377098
                                     </li>
                                 </ul>
+                                <div class="text-center mt-3">
+                                    <a href="https://maps.app.goo.gl/pG3D8cZ4Udd39mgs9" target="_blank" class="btn btn-outline-danger">
+                                        <i class="bi bi-map"></i> Find Us on Google Maps
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -220,12 +300,7 @@
     </div>
 </main>
 
-<footer class="py-4 text-center text-white">
-    <div class="container">
-        <p class="mb-0">Shree Laxmi Amul Shopiee</p>
-    </div>
-</footer>
-
+<?php include 'footer.php'; ?>
 <!-- Bootstrap JS Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Animation Scroll Script -->
@@ -251,6 +326,125 @@
     document.addEventListener('DOMContentLoaded', function() {
         handleScrollAnimations();
     });
+</script>
+<!-- Enhanced slider animations and interactivity -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize the carousel
+  var carousel = new bootstrap.Carousel(document.getElementById('amulCarousel'), {
+    interval: 7000,
+    pause: 'hover'
+  });
+  
+  // Progress bar animation
+  const progressBar = document.querySelector('.carousel-progress-bar');
+  let slideInterval = 7000; // match bootstrap carousel interval
+  
+  function resetProgressBar() {
+    progressBar.style.transition = 'none';
+    progressBar.style.width = '0%';
+    setTimeout(() => {
+      progressBar.style.transition = `width ${slideInterval}ms linear`;
+      progressBar.style.width = '100%';
+    }, 10);
+  }
+  
+  // Reset progress bar on slide change
+  document.getElementById('amulCarousel').addEventListener('slide.bs.carousel', function() {
+    resetProgressBar();
+  });
+  
+  // Initialize progress bar
+  resetProgressBar();
+  
+  // Create particles effect for each slide - reduced count on mobile for better performance
+  function createParticles(containerId, count, color) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    
+    // Reduce particle count on mobile
+    const isMobile = window.innerWidth < 768;
+    const particleCount = isMobile ? Math.floor(count / 2) : count;
+    
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('div');
+      particle.classList.add('particle');
+      
+      // Random positioning and size
+      particle.style.left = `${Math.random() * 100}%`;
+      particle.style.top = `${Math.random() * 100}%`;
+      particle.style.width = `${Math.random() * 5 + 2}px`;
+      particle.style.height = particle.style.width;
+      particle.style.backgroundColor = color;
+      
+      // Random animation duration and delay
+      particle.style.animationDuration = `${Math.random() * 3 + 2}s`;
+      particle.style.animationDelay = `${Math.random() * 2}s`;
+      
+      container.appendChild(particle);
+    }
+  }
+  
+  // Create particles for each slide with different colors
+  createParticles('particles-1', 30, '#ffde59');
+  createParticles('particles-2', 30, '#ffffff');
+  createParticles('particles-3', 30, '#92d2f5');
+  
+  // 3D rotation effect on hover (disable on mobile)
+  const slides = document.querySelectorAll('.premium-slide-wrapper');
+  
+  // Only add 3D effects for non-touch devices
+  if (window.matchMedia("(hover: hover)").matches) {
+    slides.forEach(slide => {
+      slide.addEventListener('mousemove', function(e) {
+        const slideRect = slide.getBoundingClientRect();
+        const slideWidth = slideRect.width;
+        const slideHeight = slideRect.height;
+        
+        // Calculate mouse position relative to slide center
+        const mouseX = e.clientX - slideRect.left - slideWidth / 2;
+        const mouseY = e.clientY - slideRect.top - slideHeight / 2;
+        
+        // Apply subtle rotation based on mouse position
+        const rotateY = mouseX * 0.01; // Horizontal rotation
+        const rotateX = -mouseY * 0.01; // Vertical rotation
+        
+        slide.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+      });
+      
+      // Reset transform when mouse leaves
+      slide.addEventListener('mouseleave', function() {
+        slide.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1)';
+      });
+    });
+  }
+  
+  // Add touch swipe support for mobile
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
+  const carouselElement = document.getElementById('amulCarousel');
+  
+  carouselElement.addEventListener('touchstart', function(e) {
+    touchStartX = e.changedTouches[0].screenX;
+  }, false);
+  
+  carouselElement.addEventListener('touchend', function(e) {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  }, false);
+  
+  function handleSwipe() {
+    if (touchEndX < touchStartX - 50) {
+      // Swiped left, go to next slide
+      carousel.next();
+    }
+    if (touchEndX > touchStartX + 50) {
+      // Swiped right, go to previous slide
+      carousel.prev();
+    }
+  }
+});
 </script>
 </body>
 </html>
