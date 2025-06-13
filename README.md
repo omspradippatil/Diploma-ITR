@@ -117,7 +117,7 @@ Diploma-ITR/
 - Admin dashboard
 
 ## Credits
-- **Design & Development:** [Your Name]
+- **Design & Development:** Om Pradip Patil
 - **Images:** Amul product catalog
 - **Icons:** FontAwesome, Bootstrap Icons
 - **Animations:** Animate.css
