@@ -162,16 +162,16 @@ Diploma-ITR/
 - **HTML Files & Login Page:** 
   - Deploy to Netlify by connecting to your GitHub repository
   - Alternatively, use drag-and-drop upload through Netlify's web interface
-  - Current deployment: https://shreelaxmiamul.netlify.app/
+  - Current deployment: https://sign-in-pagee.netlify.app/
 
 - **PHP Version:** 
   - Upload to a PHP-enabled hosting service via FTP
   - Configure any necessary server settings
-  - Current deployment: http://shreelaxmiamul.ct.ws/
+  - Current deployment: 
+- **PHP Version:** [http://shreelaxmiamul.ct.ws/](http://shreelaxmiamul.ct.ws/)
 
-                        http://shreelaxmiamul.fast-page.org/
-
-                        http://shreelaxmiamul.byethost33.com
+- **Alternate Links For PHP:**[shreelaxmiamul.fast-page.org](https://shreelaxmiamul.fast-page.org)  
+                              [shreelaxmiamul.byethost33.com](http://shreelaxmiamul.byethost33.com)
 
 
 
