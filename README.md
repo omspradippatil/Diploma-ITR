@@ -168,7 +168,9 @@ Diploma-ITR/
   - Upload to a PHP-enabled hosting service via FTP
   - Configure any necessary server settings
   - Current deployment: http://shreelaxmiamul.ct.ws/
-                        shreelaxmiamul.fast-page.org
+
+                        http://shreelaxmiamul.fast-page.org/
+
                         http://shreelaxmiamul.byethost33.com
 
 
