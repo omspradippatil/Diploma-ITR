@@ -6,6 +6,9 @@
 - **HTML Version:** [https://shreelaxmiamul.netlify.app/](https://shreelaxmiamul.netlify.app/)
 - **PHP Version:** [http://shreelaxmiamul.ct.ws/](http://shreelaxmiamul.ct.ws/)
 - **Login Page:** [https://sign-in-pagee.netlify.app/](https://sign-in-pagee.netlify.app/)
+- **Alternate Links For PHP:**[shreelaxmiamul.fast-page.org](https://shreelaxmiamul.fast-page.org)  
+                              [shreelaxmiamul.byethost33.com](http://shreelaxmiamul.byethost33.com)
+
 
 ## Project Overview
 This project demonstrates a comprehensive web development portfolio for "Shree Laxmi Amul Shopiee," an official Amul outlet. The project showcases both static HTML and dynamic PHP implementations of a responsive, visually appealing website, along with a separate user authentication system.
@@ -99,10 +102,43 @@ Diploma-ITR/
 │   ├── products.php               # Products catalog
 │   ├── gallery.php                # Gallery page
 │   ├── contact.php                # Contact page
+│   ├── enquiry.php                # Product enquiry form
+│   ├── faq.php                    # Frequently asked questions
+│   ├── terms.php                  # Terms of service
+│   ├── privacy-policy.php         # Privacy policy
+│   ├── nutritional-info.php       # Nutritional information
 │   ├── header.php                 # Common header component
 │   ├── footer.php                 # Common footer component
-│   ├── style.css                  # Main stylesheet
-│   ├── mobile-fixes.css           # Mobile-specific styles
+│   ├── .php-preview-router.php    # Development router for PHP preview
+│   ├── LICENSE                    # License information
+│   ├── README.md                  # PHP version documentation
+│   ├── css/                       # Organized CSS directory
+│   │   ├── common.css             # Shared styles
+│   │   ├── color-fixes.css        # Color correction styles
+│   │   ├── animation-fixes.css    # Animation optimization
+│   │   ├── mobile-fixes.css       # Mobile responsiveness
+│   │   ├── floating-animation.css # Background animations
+│   │   ├── layouts/               # Layout-specific styles
+│   │   │   └── header-footer.css  # Header and footer styles
+│   │   ├── pages/                 # Page-specific styles
+│   │   │   ├── about.css          # About page styles
+│   │   │   ├── contact.css        # Contact page styles
+│   │   │   ├── enquiry.css        # Enquiry page styles
+│   │   │   ├── faq.css            # FAQ page styles
+│   │   │   ├── gallery.css        # Gallery page styles
+│   │   │   ├── index.css          # Home page styles
+│   │   │   ├── nutritional-info.css # Nutritional info styles
+│   │   │   ├── privacy-policy.css # Privacy policy styles
+│   │   │   ├── products.css       # Products page styles
+│   │   │   └── terms.css          # Terms page styles
+│   │   └── compatibility/         # Compatibility fixes
+│   │       └── infinity-compatibility.css # InfinityFree hosting fixes
+│   ├── js/                        # JavaScript files
+│   │   ├── animations.js          # Animation scripts
+│   │   ├── common.js              # Common functionality
+│   │   ├── floating-background.js # Background animation
+│   │   ├── icecream-bg.js         # Ice cream background elements
+│   │   └── main.js                # Main site scripts
 │   └── images/                    # Images folder
 │
 └── Log in page/                   # User Registration
@@ -132,6 +168,10 @@ Diploma-ITR/
   - Upload to a PHP-enabled hosting service via FTP
   - Configure any necessary server settings
   - Current deployment: http://shreelaxmiamul.ct.ws/
+                        shreelaxmiamul.fast-page.org
+                        http://shreelaxmiamul.byethost33.com
+
+
 
 ## Browser Compatibility
 - Google Chrome (recommended)
@@ -140,21 +180,40 @@ Diploma-ITR/
 - Microsoft Edge
 - Opera
 
+## Future Enhancements
+- User authentication integration with the main website
+- Online ordering functionality with shopping cart
+- Product search feature with advanced filtering
+- Payment gateway integration for online purchases
+- Admin dashboard for inventory and order management
+- Customer accounts with order history
+- Real-time stock updates
+- Mobile app development using the same design principles
+
 ## Credits
 - **Design & Development:** Om Pradip Patil
+- **Project Supervisor:** Pradip Laxuman Patil
+- **Store Management:** Shree Laxmi Amul Shopiee
 - **Images:** Amul product catalog and custom photography
 - **Icons:** FontAwesome, Bootstrap Icons
 - **Animations:** Animate.css and custom CSS animations
 
 ## Contact
 For questions or feedback regarding this project, please contact:
-- **Email:** [ompsradippatil@gmail.com](mailto:omspradippatil@gmail.com)
-- **Phone:** +91-9028915605
+- **Email:** [omspradippatil@gmail.com](mailto:omspradippatil@gmail.com)
+- **Phone:** +91-9890377098
 - **LinkedIn:** [Om Pradip Patil](https://www.linkedin.com/in/om-pradip-patil/)
+- **Store Contact:** +91-9028915605
+
+## Project History
+- **December 2023:** Initial launch of all three versions
+- **January 2024:** Updated with performance improvements and mobile optimizations
+- **February 2024:** Added detailed product catalog and enhanced animations
+- **March 2024:** Implemented PHP version with dynamic components
 
 ---
 
-© 2023 Shree Laxmi Amul Shopiee. All Rights Reserved.
+© 2024 Shree Laxmi Amul Shopiee. All Rights Reserved.
 
-*Note: This is a student project and not affiliated with the official Amul brand.*
+*Note: This is a student project created as part of a diploma in Information Technology. Not affiliated with the official Amul brand.*
 
