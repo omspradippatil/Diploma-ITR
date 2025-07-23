@@ -1,6 +1,6 @@
 # Shree Laxmi Amul Shopiee - Web Project Portfolio
 
-![Amul Logo](Shop%20Website/Amul.jpg)
+![Amul Logo](PHP website\images/Amul.jpg)
 
 ## Live Websites
 - **HTML Version:** [https://shreelaxmiamul.netlify.app/](https://shreelaxmiamul.netlify.app/)
