@@ -3,9 +3,10 @@
 ![Amul Logo](PHP%20website/images/Amul.jpg)
 
 ## Live Websites
-- **HTML Version:** [https://shreelaxmiamul.netlify.app/](https://shreelaxmiamul.netlify.app/)
+- All in one https://omspradippatil.github.io/Diploma-ITR
+
 - **PHP Version:** [https://shreelaxmiamul.fast-page.org](https://shreelaxmiamul.fast-page.org)
-- **Login Page:** [https://sign-in-pagee.netlify.app/](https://sign-in-pagee.netlify.app/)
+
 - **Alternate Links For PHP:**
   - [https://shreelaxmiamul.fast-page.org](https://shreelaxmiamul.fast-page.org)  
   - [http://shreelaxmiamul.byethost33.com](http://shreelaxmiamul.byethost33.com)
