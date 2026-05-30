@@ -251,6 +251,10 @@ Diploma-ITR/
 - **Address:** 210, pachmarg road, opp. police station, Delwadi, Kudan, Maharashtra 401502
 - **Phone:** +91-9028915605, +91-9890377098
 
+## Support This Project
+
+If you found this project helpful, please consider [supporting me](https://ompradippatil.netlify.app/donate).
+
 ## Contact Developer
 - **Name:** Om Pradip Patil
 - **Email:** [omspradippatil@gmail.com](mailto:omspradippatil@gmail.com)
