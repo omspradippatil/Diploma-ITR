@@ -4,7 +4,7 @@
 
 A professional website for Shree Laxmi Amul Shopiee, an authorized Amul outlet located in Pachmarg, Maharashtra. This website showcases the store's products, services, and provides an easy way for customers to get in touch.
 
-## 🌐 Live Website
+##  Live Website
 
 The website is hosted on multiple platforms for reliability:
 
@@ -13,7 +13,7 @@ The website is hosted on multiple platforms for reliability:
 - Tertiary: [shreelaxmiamul.is-great.net](https://shreelaxmiamul.is-great.net)
 - Quaternary: [shreelaxmiamul.is-great.org](https://shreelaxmiamul.is-great.org)
 
-## ✨ Features
+##  Features
 
 - **Modern Responsive Design**: Fully responsive website that works on all devices
 - **Product Showcase**: Comprehensive display of Amul products offered at the store
@@ -24,7 +24,7 @@ The website is hosted on multiple platforms for reliability:
 - **FSSAI Certification**: Display of food safety certification
 - **WhatsApp Integration**: Direct messaging capability for quick customer inquiries
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5, CSS3, JavaScript
 - PHP for backend functionality
@@ -37,7 +37,7 @@ The website is hosted on multiple platforms for reliability:
 - Mobile-first approach for responsive design
 - Custom CSS variables for consistent theming
 
-## 💻 Implementation Details
+##  Implementation Details
 
 - **Front-end Architecture**: Built with component-based approach
 - **Form Validation**: Client-side using JavaScript and server-side using PHP
@@ -47,7 +47,7 @@ The website is hosted on multiple platforms for reliability:
 - **Cross-browser Testing**: Ensuring compatibility with Chrome, Firefox, Safari, Edge
 - **Analytics Integration**: Tracking user engagement and traffic sources
 
-## 🔧 Local Development Setup
+##  Local Development Setup
 
 To set up this project locally:
 
@@ -79,45 +79,45 @@ To set up this project locally:
    - Username: `om` / Password: `om27031980` (Admin)
    - Username: `guest` / Password: `1234` (Guest)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Amul-Shop/
-├── assets/
-│   ├── css/
-│   │   ├── bootstrap.min.css
-│   │   ├── styles.css
-│   │   └── responsive.css
-│   ├── js/
-│   │   ├── bootstrap.bundle.min.js
-│   │   ├── jquery.min.js
-│   │   └── main.js
-│   ├── img/
-│   │   ├── products/
-│   │   ├── gallery/
-│   │   └── logo/
-│   └── fonts/
-├── includes/
-│   ├── header.php
-│   ├── footer.php
-│   ├── config.php
-│   └── functions.php
-├── pages/
-│   ├── about.php
-│   ├── products.php
-│   ├── gallery.php
-│   └── contact.php
-├── database/
-│   └── amul_shop.sql
-├── index.php
-├── contact.php
-├── products.php
-├── about.php
-├── LICENSE
-└── README.md
+ assets/
+    css/
+       bootstrap.min.css
+       styles.css
+       responsive.css
+    js/
+       bootstrap.bundle.min.js
+       jquery.min.js
+       main.js
+    img/
+       products/
+       gallery/
+       logo/
+    fonts/
+ includes/
+    header.php
+    footer.php
+    config.php
+    functions.php
+ pages/
+    about.php
+    products.php
+    gallery.php
+    contact.php
+ database/
+    amul_shop.sql
+ index.php
+ contact.php
+ products.php
+ about.php
+ LICENSE
+ README.md
 ```
 
-## 📞 Contact Information
+##  Contact Information
 
 If you encounter any issues with the website or have questions about the store:
 
@@ -126,7 +126,7 @@ If you encounter any issues with the website or have questions about the store:
 - **Store Phone**: +91 9890377098
 - **Store Address**: 210, pachmarg road, opp. police station, Delwadi, Kudan, Maharashtra 401502
 
-## 🔄 Maintenance & Updates
+##  Maintenance & Updates
 
 The website is regularly updated with:
 - Latest product offerings
@@ -135,11 +135,11 @@ The website is regularly updated with:
 - Seasonal specials
 - New store announcements
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Amul (GCMMF) for providing official branding materials
 - Bootstrap team for the responsive framework
@@ -149,4 +149,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-© 2023 Shree Laxmi Amul Shopiee. All Rights Reserved.
+ 2023 Shree Laxmi Amul Shopiee. All Rights Reserved.
+
+---
+
+##  Contact the Developer
+
+**Developed by OM Patil**
+
+- **Portfolio**: [ompradippatil.netlify.app](https://ompradippatil.netlify.app/)
+- **GitHub**: [@omspradippatil](https://github.com/omspradippatil)
+- **LinkedIn**: [OM Pradip Patil](https://in.linkedin.com/in/om-pradip-patil)
+- **Email**: [omspradippatil@gmail.com](mailto:omspradippatil@gmail.com)

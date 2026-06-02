@@ -110,75 +110,75 @@ A complete PHP-based administrative interface for managing website interactions.
 
 ```
 Diploma-ITR/
-│
-├── Shop Website/                  # HTML Static Version
-│   ├── index.html                 # Home page
-│   ├── about.html                 # About page
-│   ├── products.html              # Products catalog
-│   ├── gallery.html               # Gallery page
-│   ├── contact.html               # Contact page
-│   ├── style.css                  # Main stylesheet
-│   └── images/                    # Images folder
-│
-├── PHP website/                   # PHP Dynamic Version
-│   ├── index.php                  # Home page
-│   ├── about.php                  # About page
-│   ├── products.php               # Products catalog
-│   ├── gallery.php                # Gallery page
-│   ├── contact.php                # Contact page
-│   ├── enquiry.php                # Product enquiry form
-│   ├── faq.php                    # Frequently asked questions
-│   ├── terms.php                  # Terms of service
-│   ├── privacy-policy.php         # Privacy policy
-│   ├── nutritional-info.php       # Nutritional information
-│   ├── header.php                 # Common header component
-│   ├── footer.php                 # Common footer component
-│   ├── .php-preview-router.php    # Development router for PHP preview
-│   ├── LICENSE                    # License information
-│   ├── README.md                  # PHP version documentation
-│   ├── css/                       # Organized CSS directory
-│   │   ├── common.css             # Shared styles
-│   │   ├── color-fixes.css        # Color correction styles
-│   │   ├── animation-fixes.css    # Animation optimization
-│   │   ├── mobile-fixes.css       # Mobile responsiveness
-│   │   ├── floating-animation.css # Background animations
-│   │   ├── layouts/               # Layout-specific styles
-│   │   │   └── header-footer.css  # Header and footer styles
-│   │   ├── pages/                 # Page-specific styles
-│   │   │   └── [page-specific CSS files]
-│   │   └── compatibility/         # Compatibility fixes
-│   │       └── infinity-compatibility.css # InfinityFree hosting fixes
-│   ├── js/                        # JavaScript files
-│   │   ├── animations.js          # Animation scripts
-│   │   ├── common.js              # Common functionality
-│   │   ├── floating-background.js # Background animation
-│   │   ├── icecream-bg.js         # Ice cream background elements
-│   │   └── main.js                # Main site scripts
-│   └── images/                    # Images folder
-│
-├── Log in page/                   # User Registration
-│   ├── index.html                 # Sign-up form
-│   └── style.css                  # Form stylesheet with animations
-│
-└── Amul-Shop-AdminPanel/          # Administrative Interface
-    ├── config/                    # Configuration files
-    │   └── database.php           # Database connection settings
-    ├── includes/                  # Common components
-    │   ├── session.php            # Session management
-    │   ├── header.php             # Common header
-    │   └── footer.php             # Common footer
-    ├── index.php                  # Redirect to login
-    ├── login.php                  # Login page
-    ├── auth.php                   # Authentication handler
-    ├── logout.php                 # Logout handler
-    ├── dashboard.php              # Main dashboard
-    ├── contact_messages.php       # Contact messages management
-    ├── product_enquiries.php      # Product enquiries management
-    ├── user_management.php        # User management (Admin only)
-    ├── admin_tools.php            # Admin tools (Admin only)
-    ├── admin_actions.php          # AJAX handler for admin operations
-    ├── export.php                 # CSV export functionality
-    └── README.md                  # Admin panel documentation
+
+ Shop Website/                  # HTML Static Version
+    index.html                 # Home page
+    about.html                 # About page
+    products.html              # Products catalog
+    gallery.html               # Gallery page
+    contact.html               # Contact page
+    style.css                  # Main stylesheet
+    images/                    # Images folder
+
+ PHP website/                   # PHP Dynamic Version
+    index.php                  # Home page
+    about.php                  # About page
+    products.php               # Products catalog
+    gallery.php                # Gallery page
+    contact.php                # Contact page
+    enquiry.php                # Product enquiry form
+    faq.php                    # Frequently asked questions
+    terms.php                  # Terms of service
+    privacy-policy.php         # Privacy policy
+    nutritional-info.php       # Nutritional information
+    header.php                 # Common header component
+    footer.php                 # Common footer component
+    .php-preview-router.php    # Development router for PHP preview
+    LICENSE                    # License information
+    README.md                  # PHP version documentation
+    css/                       # Organized CSS directory
+       common.css             # Shared styles
+       color-fixes.css        # Color correction styles
+       animation-fixes.css    # Animation optimization
+       mobile-fixes.css       # Mobile responsiveness
+       floating-animation.css # Background animations
+       layouts/               # Layout-specific styles
+          header-footer.css  # Header and footer styles
+       pages/                 # Page-specific styles
+          [page-specific CSS files]
+       compatibility/         # Compatibility fixes
+           infinity-compatibility.css # InfinityFree hosting fixes
+    js/                        # JavaScript files
+       animations.js          # Animation scripts
+       common.js              # Common functionality
+       floating-background.js # Background animation
+       icecream-bg.js         # Ice cream background elements
+       main.js                # Main site scripts
+    images/                    # Images folder
+
+ Log in page/                   # User Registration
+    index.html                 # Sign-up form
+    style.css                  # Form stylesheet with animations
+
+ Amul-Shop-AdminPanel/          # Administrative Interface
+     config/                    # Configuration files
+        database.php           # Database connection settings
+     includes/                  # Common components
+        session.php            # Session management
+        header.php             # Common header
+        footer.php             # Common footer
+     index.php                  # Redirect to login
+     login.php                  # Login page
+     auth.php                   # Authentication handler
+     logout.php                 # Logout handler
+     dashboard.php              # Main dashboard
+     contact_messages.php       # Contact messages management
+     product_enquiries.php      # Product enquiries management
+     user_management.php        # User management (Admin only)
+     admin_tools.php            # Admin tools (Admin only)
+     admin_actions.php          # AJAX handler for admin operations
+     export.php                 # CSV export functionality
+     README.md                  # Admin panel documentation
 ```
 
 ## Setup & Deployment Instructions
@@ -270,7 +270,17 @@ If you found this project helpful, please consider [supporting me](https://ompra
 
 ---
 
-© 2024 Shree Laxmi Amul Shopiee. All Rights Reserved.
+ 2024 Shree Laxmi Amul Shopiee. All Rights Reserved.
 
 *Note: This is a student project created as part of a diploma in Information Technology. Not affiliated with the official Amul brand.*
 
+---
+
+##  Contact the Developer
+
+**Developed by OM Patil**
+
+- **Portfolio**: [ompradippatil.netlify.app](https://ompradippatil.netlify.app/)
+- **GitHub**: [@omspradippatil](https://github.com/omspradippatil)
+- **LinkedIn**: [OM Pradip Patil](https://in.linkedin.com/in/om-pradip-patil)
+- **Email**: [omspradippatil@gmail.com](mailto:omspradippatil@gmail.com)
