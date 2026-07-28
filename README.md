@@ -253,7 +253,7 @@ Diploma-ITR/
 
 ## Support This Project
 
-If you found this project helpful, please consider [supporting me](https://ompradippatil.netlify.app/donate).
+If you found this project helpful, please consider [supporting me](https://om-patil.com/donate).
 
 ## Contact Developer
 - **Name:** Om Pradip Patil
